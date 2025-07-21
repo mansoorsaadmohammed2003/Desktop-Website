@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en" xmlns:object-fit="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+</head>
+<body style="background-color:silver">
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+        <nav class="navbar bg-body-tertiary">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="logo.jpg" alt="Bootstrap" width="100" height="100">
+                </a>
+            </div>
+        </nav>        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="two.html">Men</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="three.html">Woman</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="four.html">Kids</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="five.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Accesory
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Beauty</a></li>
+                        <li><a class="dropdown-item" href="#">Home Appliances</a></li>
+                        <li><a class="dropdown-item" href="#">Shoes</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Watches</a></li>
+                    </ul>
+            </ul>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+        </div>
+    </div>
+</nav><br>
+
+<h3 style="text-align:center">New Offers</h3><br>
+
+<div id="carouselExample" class="carousel slide">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="banner-1.png" height="500" width="750" class="d-block w-75 mx-auto" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="banner-2.jpg" height="500" width="750" class="d-block w-75 mx-auto" alt="...">
+        </div>
+        <div class="carousel-item">
+            <div class="text-center">
+                <img src="banner-3.jpg" height="750" width="1000" class="img-fluid" alt="Banner Image">
+            </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+    <br>
+</div>
+
+
+<h3 style="text-align:center">Products</h3>
+<br>
+
+<div class="row" style="background-color:grey;margin:20px">
+
+    <div class="col-3">
+        <div class="card" style="background-color:lightblue">
+            <img src="card-3.jpg" class="card-img-top" style="height: 300px; object-fit: contain;" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Mens Wear</h5>
+                <p class="card-text">Crafted from premium cotton, this shirt offers all-day comfort and a sharp look. Perfect for both casual outings and formal events. Available in multiple colors</p>
+                <a href="two.html" class="btn btn-primary">Explore Mens Wear</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-3">
+        <div class="card" style="background-color:pink">
+            <img src="card-2.jpg" class="card-img-top" style="height: 300px; object-fit: contain" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Womens Wear</h5>
+                <p class="card-text">Made from soft, breathable fabric, this piece blends elegance and comfort. Great for daily wear or festive occasions. Available in stylish colors and fits.</p>
+                <a href="three.html" class="btn btn-primary">Explore Womens Wear</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-3">
+        <div class="card" style="background-color:lightyellow">
+            <img src="cards-44.jpg" class="card-img-top" style="height: 300px; object-fit: contain;" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Kids Wear</h5>
+                <p class="card-text">Crafted for comfort and durability, this outfit keeps up with your child’s energy. Perfect for school or play. Offered in bright colors and fun designs.</p>
+                <a href="four.html" class="btn btn-primary">Explore Kids Wear</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-3">
+        <div class="card" style="background-color:lightgreen">
+            <img src="cards-33.jpg" class="card-img-top" style="height: 300px; object-fit: contain;" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Accessory</h5>
+                <p class="card-text">Designed to complement any outfit, this accessory adds the perfect finishing touch. Ideal for daily use or special events. Available in multiple styles.</p>
+                <a href="five.html" class="btn btn-primary">Explore Accessory</a>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<footer style="background-color:black; padding: 20px 0;">
+    <div class="container">
+        <div class="row align-items-center text-white">
+
+            <!-- Shop Info -->
+            <div class="col-md-4 mb-3 mb-md-0">
+                <strong style="font-size: 24px;">Shop Non-Stop on Saad</strong><br>
+                Most Trusted Brand for Shopping
+            </div>
+
+            <!-- Categories -->
+            <div class="col-md-2 mb-3 mb-md-0">
+                <div>
+                    <p class="mb-1">Mens</p>
+                    <p class="mb-1">Womens</p>
+                    <p class="mb-1">Kids</p>
+                    <p class="mb-0">Accessory</p>
+                </div>
+            </div>
+
+            <!-- Navigation -->
+            <div class="col-md-2 mb-3 mb-md-0 text-center">
+                <div>
+                    <p class="mb-1">Add to Cart</p>
+                    <p class="mb-1">Buy</p>
+                    <p class="mb-1">Explore</p>
+                    <p class="mb-0">Home</p>
+                </div>
+            </div>
+
+            <!-- Logo or Image -->
+            <div class="col-md-4 text-center text-md-end">
+                <img src="ali_face.png" alt="Logo" style="max-height: 150px; width: auto; object-fit: contain;"><br><br>
+                <p >Partner:<strong>Only Qamar</strong></p>
+                <img src="onlyQamar.jpg" alt="Logo" style="max-height: 100px; width:150px; object-fit: contain;"><br>
+            </div>
+
+        </div>
+    </div>
+</footer>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+</body>
+</html>
